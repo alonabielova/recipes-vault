@@ -1,4 +1,8 @@
+import RecipeCard from "@/components/recipeCard";
+import RecipeList from "@/components/recipeList";
+
 export default function Home() {
   return <div>
-  </div>;
+    <RecipeList></RecipeList>
+  </div>
 }
